@@ -1,46 +1,52 @@
 # wos-browser
+## Brief Introduction
 
-#### 概览
-1、wos-browser提供界面化的云存储文件管理功能。支持文件和文件夹的上传、删除等操作。
+WOS Browser is a freeware Windows/Mac client for CDNetworks Object Storage. It provides a simple web services interface that can be used to store/retrieve/manage any amount of data, at any time, from anywhere on the web.
 
-#### 准备工作
-1、开通云存储帐号、创建空间（工具暂不支持创建空间）。
+### Applicable API version
+it's applicable for API-V1 and SDK-V1.
 
-#### 使用说明
-### 安装&登录
-1、下载工具
-* [windows-x64](https://s3-cn-east-5.wcsapi.com/doc-pics/tool/wos-browser-1.1.2-win32-x64.zip)
-* [mac-x64](https://s3-cn-east-5.wcsapi.com/doc-pics/tool/wos-browser-1.1.2-darwin-x64.zip)
-* [linux-x64](https://s3-cn-east-5.wcsapi.com/doc-pics/tool/wos-browser-1.1.2-linux-x64.zip)
+## Preconditions
+1. Open CDNetworks Object Storage service;
+2. Create a bucket;
+3. Get Endpoint, Region Name, AccessKey and SecretKey.
 
-2、解压zip后，进入目录，执行wos-browser.exe即可使用
-![](https://s3-cn-east-5.wcsapi.com/doc-pics/guide-wos-browser-pics/1.png)  
+## Download Browser
+[Windows](http://wcsd.chinanetcenter.com/tool/wos-browser-1.1.1-win32-x64.zip)
+[mac-x64](http://wcsd.chinanetcenter.com/tool/wos-browser-mac-x64.zip)
+[Linux-x64](http://wcsd.chinanetcenter.com/tool/wos-browser-1.1.1-linux-x64.zip)
 
-3、填写登录信息
+## Install
+### Windows
+Execute wos-browser.exe
 
-*注：endpoint、regionName信息可到网宿对象存储控制台空间概览中获取*
+![image.png](https://www.wangsu.com/wos/draft/help_doc/en_us/2514/2971/1594977165585_image.png)
 
-![](https://s3-cn-east-5.wcsapi.com/doc-pics/guide-wos-browser-pics/22.png)  
+### For Mac
+Execute wos-browser.app
 
-4、登录成功后，从展示的空间列表中选择需要管理的空间
-![](https://s3-cn-east-5.wcsapi.com/doc-pics/guide-wos-browser-pics/3.png)  
+![image.png](https://www.wangsu.com/wos/draft/help_doc/en_us/2514/2971/1594975498012_image.png)
 
 
-### 文件管理
-1、支持文件或文件夹的上传（支持直接拖拽上传）。
+## Login 
+You need to fill at least four fields in the login credential.
+- Endpoint of your bucket
+- Region Name of your bucket
+- Access Key 
+- Secret Key
 
-2、支持文件移动、重命名、复制、删除、获取地址和下载（支持多选批量操作）。
+![image.png](https://www.wangsu.com/wos/draft/help_doc/en_us/2514/2971/1594975965339_image.png)
 
-3、支持文件夹的移动、重命名、删除等操作。
-注：Mac版本没有上传目录按钮，选择目录即可上传整个目录的文件
-![](https://s3-cn-east-5.wcsapi.com/doc-pics/guide-wos-browser-pics/4.png)  
+## Visit Your Object Storage
+![image.png](https://www.wangsu.com/wos/draft/help_doc/en_us/2514/2971/1594976165241_image.png)
 
-4、文件搜索，支持模糊搜索空间内文件名匹配指定内容的文件
 
-### 版本变更记录
-|  版本   | 变更内容  |
-|  ----  | ----  |
-| 1.1.2 | 资源搜索结果支持预览|
-| 1.1.1 | 资源搜索功能调整为只在当前目录下搜索，根目录搜索等同于全局搜索|
-| 1.1.0 | 新增资源全局搜索功能|
-| 1.0.0 | 初始版本|
+## Access into Buckets
+Click the target bucket you want to visit, then it will jump into the bucket and you will see your object list and rich function icons on the UI.
+![image.png](https://www.wangsu.com/wos/draft/help_doc/en_us/2514/2971/1594976736495_image.png)
+
+## Functions
+- Support upload files or folders to the bucket (drag-and-drop upload is supported).
+- Support move, rename, copy, remove, get the URL, download and even preview the files.
+
+(Notes: Currently the broswer can't support video processing funtions)
