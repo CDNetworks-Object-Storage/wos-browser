@@ -1,10 +1,7 @@
 # wos-browser
 ## Brief Introduction
 
-WOS Browser is a freeware Windows/Mac client for CDNetworks Object Storage. It provides a simple web services interface that can be used to store/retrieve/manage any amount of data, at any time, from anywhere on the web.
-
-### Applicable API version
-it's applicable for API-V1 and SDK-V1.
+WOS Browser is a freeware Windows/Mac client for CDNetworks Object Storage, which provides a simple web services interface that can be used to store/retrieve/manage any amount of data, at any time, from anywhere on the web.
 
 ## Preconditions
 1. Open CDNetworks Object Storage service;
